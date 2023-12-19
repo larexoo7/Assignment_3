@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Lato', sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+body {
+  max-width: 100%;
+  height: 1170px;
+}
+
+.nav {
+  width: 82rem;
+  height: 4.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 2.5rem;
+  padding-block: 1.75rem;
+  border-bottom: 2px solid hsla(204, 18%, 90%, 1);
+}
+
+.logo {
+  width: 12.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+}
+
+.nav ul {
+  width: 29.8rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul li {
+  display: block;
+  height: 1rem;
+}
+
+.nav ul li a {
+  color: #1d2c3c;
+  text-align: center;
+  font-family: Lato;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.00063rem;
+  text-decoration: none;
+}
+
+.nav ul li.account {
+  width: 5.6rem;
+  height: 2.5rem;
+  border: 2px solid hsla(213, 10%, 44%, 1);
+  border-radius: 0.4rem;
+  padding-inline: 1.19rem 1.25rem;
+  padding-block: 0.55rem;
+}
+
+main {
+  width: 56rem;
+  height: 52.8rem;
+  margin-inline: 16.37rem 17.88rem;
+  margin-block: 5.31rem 11.81rem;
+}
+.container {
+  width: 55.8rem;
+  max-width: 100%;
+  height: 49.7rem;
+  display: flex;
+  background: hsl(0, 100%, 99%);
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05),
+    0px 15px 35px 0px rgba(43, 64, 78, 0.1);
+  border-radius: 0.375rem;
+}
+
+.basic {
+  min-width: 65%;
+}
+
+.basic h1 {
+  width: 10rem;
+  height: 3.4rem;
+  color: hsla(211, 35%, 17%, 1);
+  font-family: lato;
+  font-size: 1.9rem;
+  font-weight: 400;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-inline: 3rem 23.2rem;
+  margin-block: 2.56rem 1.5rem;
+}
+
+ hr {
+  width: 36.25rem;
+  height: 0.125rem;
+  background: hsla(204, 18%, 90%, .5);
+  border: none;
+  
+} 
+.basic-info {
+  width: 36.3rem;
+  height: 14.2rem;
+  position: relative;
+  margin-block-end: 2.56rem;
+}
+
+.basic-info img,
+.payment img {
+  margin-inline-start: 3rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  object-fit: cover;
+  margin-inline-end: 0.62rem;
+  margin-block-start: 2.25rem;
+}
+
+.basic-info h2,
+.payment h2 {
+  width: 13.75rem;
+  height: 2rem;
+  position: relative;
+  color: hsla(211, 35%, 17%, 1);
+  font-family: Lato;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -0.01rem;
+  margin-inline-start: 5.3rem;
+  margin-block-start: -2rem;
+  margin-block-end: 0.56rem;
+}
+
+.basic-inputs {
+  display: flex;
+  margin-inline-start: 3.06rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-block-end: 2.6rem;
+}
+
+div.user-details {
+  width: 14.5rem;
+  height: 4.1rem;
+}
+.user-details label {
+  width: 11.6875rem;
+  height: auto;
+  color: hsla(211, 35%, 17%, 1);
+  font-family: Lato;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.user-details input {
+  margin-block-start: 0.44rem;
+  width: 14.1875rem;
+  height: 2.25rem;
+  font-family: lato;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: hsla(213, 10%, 5%, 1);
+  border-radius: 0.25rem;
+  background: hsla(216, 16%, 90%, 1);
+  border: none;
+  padding-inline: 0.81rem 1.69rem;
+}
+
+.basic-inputs :first-child {
+  margin-inline-end: 1.87rem;
+  margin-block-end: 0.94rem;
+}
+
+.basic-inputs div:last-child {
+  width: 23.3rem;
+  height: 4.2rem;
+}
+
+.long-input input {
+  width: 23.1rem;
+  height: 2.25rem;
+  margin-block-start: 0.44rem;
+}
+
+/* payment info */
+
+.payment {
+  width: 36.3rem;
+  height: 11.6rem;
+  position: relative;
+  
+}
+.card {
+  width: 30.2rem;
+  height: 3.8rem;
+  margin-inline: 3rem;
+}
+
+.card label {
+  width: 11.7rem;
+  display: block;
+  color: hsla(211, 35%, 17%, 1);
+  font-family: Lato;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-block: 1.69rem 0.44rem;
+}
+
+.card input {
+  height: 2.3rem;
+  background: hsla(216, 16%, 90%, 1);
+  color: hsla(213, 10%, 5%, 1);
+  border: none;
+}
+
+.card input:nth-child(2) {
+  width: 15rem;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+  padding-inline-start: 0.81rem;
+}
+.card input:nth-child(3) {
+  width: 10rem;
+  margin-inline-start: -0.2rem;
+  text-align: right;
+  padding-inline-end: 0.3rem;
+}
+.card input:nth-child(4) {
+  width: 5rem;
+  margin-inline-start: -0.2rem;
+  text-align: center;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+/* Purchase info */
+
+.purchase {
+  position: relative;
+  width: 30.2rem;
+  height: 9.2rem;
+  margin-inline: 3rem;
+  margin-block-start: 2.44rem;
+}
+
+.purchase .btn {
+  width: 30.2rem;
+  height: 3.25rem;
+  text-align: center;
+  padding-block: 0.81rem 1.06rem;
+  color: hsla(0, 0%, 100%, 1);
+  font-family: lato;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: -0.02rem;
+  border-radius: 0.3rem;
+  border: none;
+  background: hsla(174, 94%, 28%, 0.982);
+}
+
+.purchase img {
+  width: 1rem;
+  height: 1rem;
+  margin-inline: 4.69rem 0.62rem;
+  margin-block-start: 1.44rem;
+}
+
+.purchase p {
+  position: relative;
+  top: -1.3rem;
+  right: -6rem;
+  /* margin-block-end: 6.31rem; */
+  width: 18.9rem;
+  height: 1rem;
+  font-family: lato;
+  font-size: .9rem;
+  font-weight: 500;
+  color: hsla(213, 10%, 44%, 1);
+}
+
+.purchase p span {
+  color: hsla(211, 35%, 17%, 1);
+}
+
+.purchase .stripe-btn {
+  position: absolute;
+  width: 7rem;
+  height: 1.4rem;
+  bottom: 1px;
+  text-align: center;
+  margin-inline: 12rem;
+  font-size: 0.6rem;
+  font-family: lato;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 1);
+  background: hsla(213, 4%, 41%, 0.829);
+  border: none;
+  border-radius: 0.5rem;
+  padding-block: 0 1.5rem;
+  word-spacing: 0.1rem;
+  top: 8.3rem;
+}
+
+.stripe-btn strong {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+aside {
+  background: hsla(204, 84%, 41%, 1);
+  min-width: 35%;
+}
+
+.side-bar-container {
+  width: 14.5rem;
+  height: 38rem;
+  color: hsla(0, 0%, 100%, 1);
+  margin-inline: 2.75rem 2.31rem;
+  margin-block: 2.62rem 8.94rem;
+  
+}
+
+.plan {
+  height: 9.5rem;
+  font-weight: 700;
+  font-family: Lato;
+}
+
+.plan h1 {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.plan sup {
+  font-size: 2rem;
+  font-weight: 700;
+  position: relative;
+  top: -1rem;
+}
+
+.plan span {
+  font-size: 3.75rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.plan sub {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.plan p {
+  width: 10rem;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.plan-detail {
+  width: 10.6rem;
+  height: 5.6rem;
+  display: flex;
+  margin-block-start: 2.25rem;
+  margin-inline-end: 3.75rem;
+}
+
+.plan-detail .check img{
+  display: block;
+  margin-block-end: 1rem;
+}
+
+.plan-detail .benefit p{
+  display: flex;
+  flex-direction: column;
+  margin-block-end:1rem;
+  margin-inline-start: 0.5rem;
+}
+.plan-switch {
+  width: 11.5rem;
+  height: 3.6rem;
+  font-size: 1rem;
+  margin-block-start: 2.37rem;
+  line-height: 2rem;
+  border-bottom: 0.25rem solid hsla(189, 100%, 86%, 0.4);
+  border-bottom-width: 0.5rem;
+  margin-block-end: 2.3rem;
+}
+
+.quote {
+  width: 14.3rem;
+  height: 12.2rem;
+  border-top: 0.25rem solid hsla(189, 100%, 86%, 0.4);
+  border-top-width: 0.25rem;
+  padding-block-start: 2.56rem;
+  font-size: 1.03rem;
+  font-family: lato;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.5rem;
+  position: relative;
+}
+
+.quote p strong {
+  font-weight:700;
+}
+
+.quote img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-block-start: 3.2rem;
+  object-fit: cover;
+}
+.quote h3 {
+  position: absolute;
+  font-size: 1rem;
+  font-weight: 600;
+  top: 11rem;
+  left: 3rem;
+}
+
+footer{
+  width: 54.2rem;
+  font-size: 0.89rem;
+  font-weight: 400;
+  text-align: center;
+  color: hsl(180, 3%, 6%);
+  margin-block: 2.06rem 8.69rem;
+  margin-inline: 1.56rem 7.88rem;
+
+}
+footer a{
+  text-decoration: none;
+  color: hsl(229, 100%, 44%);
+  padding-inline-start: .6rem;
+}

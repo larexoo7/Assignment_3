@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Description" content="Wp_Pusher_Checkout_Page">
+  <meta name="Oke Olaoluwa" content="Assignmet_no3">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<header>
+  <nav class="nav">
+    <img src="images/wppusher-logo copy.png" alt="website logo" class="logo">
+    <ul>
+      <li><a href="#Download">Download</a></li>
+      <li><a href="#Learn More">Learn More</a></li>
+      <li><a href="#Pricing">Pricing</a></li>
+      <li><a href="#Help">Help</a></li>
+      <li class="account"><a href="#Account">Account</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+<main>
+  <section class="container" aria-label="Checkout Information page">
+    <section class="basic" aria-label="Fill in appopriate details">
+      <h1>Checkout</h1>
+      <hr>
+      <div class="basic-info" aria-label="Basic Information details">
+        <img src="images/1.png" alt="Information_section">
+        <h2>Your Basic Information</h2>
+        <div class="basic-inputs">
+          <div class="user-details">
+            <label for="First-name" aria-label="Please Enter Your First Name">First Name</label>
+            <input type="text" name="First-name" id="First-name" placeholder="Jane">
+          </div>
+          <div class="user-details">
+            <label for="Last-name" aria-label="Please Enter your Last Name">Last Name</label>
+            <input type="text" name="Last-name" id="Last-name" placeholder="Doe">
+          </div>
+          <div class="user-details long-input">
+            <label for="Email" aria-label="Please Enter Your Email Address">E-mail</label>
+            <input class="long-input" type="email" name="Email" id="Email" placeholder="janedoe@example.com">
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="payment">
+        <img src="images/2.png" alt="payment_section">
+        <h2>Your Payment Information</h2>
+        <div class="card">
+          <label for="card-number">Credit Card</label>
+          <input type="text" aria-label="Enter your card details" id="Card-number" name="Card-number"
+            placeholder="Card Number" required>
+
+          <input type="text" aria-label="Enter your card expiration month and year" id="Card-expire" name="Card-expire"
+            placeholder="MM/YY" required>
+
+          <input type="text" aria-label="Enter your card CVV number" id="Card-code" name="Card-code" placeholder="CVV"
+            required>
+
+        </div>
+      </div>
+      <hr>
+
+
+      <div class="purchase">
+        <button class="btn" aria-label="click button to Buy WP Pusher">Buy WP Pusher</button>
+        <img src="images/Mask.png" alt="help icon">
+        <p><span>Need any help?</span> Don't hesitate to contact <br> support!</p>
+        <button class="stripe-btn" id="stripe-btn" disabled>Powered by
+          <strong>stripe</strong></button>
+      </div>
+
+    </section>
+
+
+    <aside>
+      <div class="side-bar-container">
+        <div class="plan">
+          <h2>Freelancer</h2>
+          <sup>$</sup>
+          <span>99</span><sub>/ year</sub>
+          <p>Automatically renews after 1 year</p>
+        </div>
+
+        <div class="plan-detail">
+          <div class="check">
+            <img src="images/Combined Shape.png" alt="#">
+            <img src="images/Combined Shape.png" alt="#">
+            <img src="images/Combined Shape.png" alt="#">
+          </div>
+          <div class="benefit">
+            <p>Use on 5 client sites</p>
+            <p>Private repositories</p>
+            <p>Email support</p>
+          </div>
+
+      </div>
+
+          <div class="plan-switch">
+            <p>Need <strong>20</strong> client sites? <br><strong>Switch to the <i>Agency</i> plan</strong>.</p>
+
+          </div>
+
+          <div class="quote">
+            <p> FTP is horrible to deal with. <strong>WP Pusher
+              </strong> solves that issue, and the customer support is awesome!</p>
+            <img src="images/Bitmap.png" alt="A picture of Kirk Beard">
+            <h3>Kirk Beard</h3>
+          </div>
+        </div>
+    </aside>
+  </section>
+  <footer>
+    © 2018 WP Pusher IVS · <a href="#">Terms of Service </a>
+  </footer>
+</main>
+
+
+
+</body>
+
+</html>
